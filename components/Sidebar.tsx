@@ -61,7 +61,7 @@ const Sidebar: React.FC<SidebarProps> = ({ activeScreen, setActiveScreen }) => {
             <aside id="sidebar-nav" className={`fixed top-0 left-0 h-full w-64 bg-white dark:bg-slate-800 shadow-xl z-20 transform ${isOpen ? 'translate-x-0' : '-translate-x-full'} md:translate-x-0 transition-transform duration-300 ease-in-out flex flex-col`}>
                 <div className="p-6">
                     <div className="flex items-center mb-10" tabIndex={-1}>
-                        <Logo textClassName="text-xl text-slate-800 dark:text-slate-100" />
+                        <Logo className="h-8" />
                     </div>
                     <nav aria-label="Main navigation">
                         <ul>

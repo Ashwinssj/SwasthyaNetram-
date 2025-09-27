@@ -23,7 +23,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onEnter }) => {
       
       <main className="container mx-auto px-6 py-12 relative z-10">
         <header className="flex justify-between items-center py-4">
-             <Logo textClassName="text-3xl" />
+             <Logo className="h-10" />
             <button onClick={onEnter} className="hidden md:inline-block px-6 py-2 border border-teal-400 text-teal-400 rounded-full font-semibold hover:bg-teal-400 hover:text-slate-900 transition-colors">
                 Login
             </button>
